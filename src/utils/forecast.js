@@ -16,7 +16,7 @@ const forecast = (latitude, longitude, callback) => {
             callback("Unable to find location", undefined);
         } else {
             callback(undefined, summary + " It is currently " + temperature + " out. There is a " + precipProbability + "% chance of rain. " + 
-            "High for today is: " + tempHigh + "with a low of: " + tempLow);
+            "High for today is: " + tempHigh + " with a low of: " + tempLow);
         }
     });
 };
